@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt1_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/key_1"
+        android:layout_marginTop="@dimen/txt_view_margin_title"
+        />
+
+    <TextView
+        android:id="@+id/txt1_key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_text_yet"
+        android:layout_marginTop="@dimen/txt_view_margin"
+        />
+
+
+
+</LinearLayout>
