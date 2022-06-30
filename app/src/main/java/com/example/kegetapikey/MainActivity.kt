@@ -10,6 +10,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
+        // Касательно api_key - в gradle добавлен код на groove, который отрабатывается во время
+        // компиляции, а именно автоматически генерирует файл BuildConfig и добавляет туда
+        // константу - например: public static final String NASA_API_KEY = "DEMO_KEY";
+
 //  Примечание
 //        В .properties название ключа - yandex_weather_api_key ,
 //        в BuildConfig - WEATHER_API_KEY ,
