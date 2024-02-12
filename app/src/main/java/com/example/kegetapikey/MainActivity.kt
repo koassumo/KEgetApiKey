@@ -13,11 +13,14 @@ class MainActivity : AppCompatActivity() {
         // Касательно api_key - в gradle добавлен код на groove, который отрабатывается во время
         // компиляции, а именно автоматически генерирует файл BuildConfig и добавляет туда
         // константу - например: public static final String NASA_API_KEY = "DEMO_KEY";
+        // или   public static final String WEATHER_API_KEY = "56.....49";
 
 //  Примечание
-//        В .properties название ключа - yandex_weather_api_key ,
+//        В .properties название ключа вида -
+//        yandex_weather_api_key="56.....49",
 //        в BuildConfig - WEATHER_API_KEY ,
-//        а запросе api - addRequestProperty("X-Yandex-API-Key", "627a...........783")
+//        а запросе api - addRequestProperty("X-Yandex-API-Key", "56.....49")
+//        или addRequestProperty("X-Yandex-API-Key", BuildConfig.WEATHER_API_KEY)
 
 
 
